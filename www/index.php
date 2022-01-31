@@ -11,7 +11,7 @@
  
                 echo "<h1>¡Hola, OpenWebinars te da la bienvenida!</h1>";
 
-                $conn = mysqli_connect('db', 'user1', 'test', "dbname");
+                $conn = mysqli_connect('db', 'root', 'test', "dbname");
                 
                 $query = 'SELECT * From Person';
                 $result = mysqli_query($conn, $query);
