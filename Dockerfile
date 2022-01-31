@@ -1,4 +1,4 @@
-FROM php:8.0.0-apache
+FROM php:7.4.0-apache
 ARG DEBIAN_FRONTEND=noninteractive
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 RUN apt-get update \
